@@ -97,9 +97,4 @@ ros2 run p0_py subscriber_node
 > [!NOTE]  
 > Para una descripción detallada de los criterios, consulte la sección de rúbrica en el cuaderno de Jupyter.
 
----
-
-## Autores
-*   **M.I. Erik Peña Medina** - *Academia de Robótica*
-*   **Dr. Víctor Javier Gonzáles Villela** - *Academia de Robótica*
 
