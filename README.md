@@ -1,6 +1,5 @@
 <div align="center">
   <h1>Práctica 0: Nodos y Tópicos</h1>
-  <p><b>Laboratorio de Robótica Remota - Proyecto PAPIME PE110923</b></p>
 
   [![ROS2 Humble](https://img.shields.io/badge/ROS2-Humble-blue?style=for-the-badge&logo=ros)](https://docs.ros.org/en/humble/index.html)
   [![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
@@ -10,8 +9,6 @@
 ---
 
 ## Descripción General
-
-Este repositorio forma parte del proyecto **PAPIME PE110923**: *"Desarrollo de un Laboratorio de Robótica Remoto para realizar prácticas de programación de algoritmos de planeación y de navegación en bancos de prueba físicos"*.
 
 La **Práctica 0** tiene como objetivo establecer los fundamentos de la comunicación entre procesos en ROS 2 mediante la implementación de una arquitectura de Nodos Publicadores y Suscriptores.
 
@@ -54,20 +51,6 @@ practica_0/
 - **OS**: Ubuntu 22.04 LTS (o similar con soporte ROS 2)
 - **ROS 2 Distro**: Humble / Iron / Jazy
 
-### Instalación y Compilación
-
-1. **Clonar el repositorio:**
-   ```bash
-   git clone <URL_DEL_REPO>
-   cd practica_0
-   ```
-
-2. **Compilar el espacio de trabajo:**
-   ```bash
-   colcon build
-   source install/setup.zsh  # O setup.bash
-   ```
-
 ### Ejecución
 Abre dos terminales y ejecuta:
 
@@ -81,20 +64,5 @@ ros2 run p0_py primer_nodo
 ros2 run p0_py subscriber_node
 ```
 
----
-
-## Evaluación y Resultados
-
-### Rúbrica de Evaluación
-
-| Criterio | Peso | Descripción |
-| :--- | :---: | :--- |
-| **Previo** | 25% | Investigación teórica y referencias. |
-| **Desarrollo** | 25% | Implementación técnica y lógica. |
-| **Resultado** | 25% | Interpretación de datos obtenidos. |
-| **Conclusiones** | 25% | Relación con los objetivos y resultados. |
-
-> [!NOTE]  
-> Para una descripción detallada de los criterios, consulte la sección de rúbrica en el cuaderno de Jupyter.
 
 
